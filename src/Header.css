@@ -1,0 +1,59 @@
+/* Header.css */
+*
+{
+    font-size: 20px ;
+    font-family: 'Ariel';
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightslategray;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+   
+    margin-left: auto;
+  }
+  
+  .header-right .login 
+  {
+   margin-right: 50px;
+   font-weight: bold;
+    
+  }
+  
+  .bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    font-weight: bold;
+  }
+  .search
+  {
+    width: 560px;
+  }
+  .post:hover  
+  {
+    background-color: whitesmoke;
+  }
+  .login:hover  
+  {
+    background-color: whitesmoke;
+  }
+  .img 
+  {
+    padding-top: 28px;
+  }
+  
+  

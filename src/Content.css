@@ -1,0 +1,48 @@
+.box {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(177, 198, 219);
+    padding-top: 20px;
+}
+
+.cont {
+    justify-content: space-between;
+    margin-left: 250px;
+}
+
+.sub-cont {
+    margin-left: 250px;
+}
+
+.connected {
+    margin-left: 250px
+}
+
+.box.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.diya {
+    margin-top: 200px;
+    margin-left: -450px;
+}
+
+.rowdy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 400px;
+    /* Adjust width as needed */
+    margin-left: -100px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}

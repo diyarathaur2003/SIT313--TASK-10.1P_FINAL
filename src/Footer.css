@@ -1,0 +1,43 @@
+/* Footer.css */
+
+#EmailForm {
+
+  background-color: lightslategray;
+
+}
+
+.h8 {
+  font-size: 20px;
+  margin-left: 20px;
+
+
+}
+
+/* You can remove the margin-left property to center the input field */
+#EmailForm input[type="text"] {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 600px;
+  /* margin-left: 820px; */
+  /* Remove this line */
+  margin-top: 20px;
+}
+
+#EmailForm button {
+  background-color: #0073e6;
+  color: #fff;
+  margin-left: 20px;
+  padding: 8px;
+
+}
+
+#EmailForm button:hover {
+  background-color: #005bbd;
+}
+
+.hidden {
+  display: none;
+}
